@@ -63,7 +63,7 @@ const LOLChatViewer = () => {
     <div className="min-h-screen bg-gray-900 text-gray-100 p-6">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2 text-blue-400">League of Legend Chat Viewer</h1>
+          <h1 className="text-4xl font-bold mb-2 text-blue-400">League of Legends Chat Viewer</h1>
           <p className="text-lg text-gray-400">Dive into your game conversations</p>
         </header>
         

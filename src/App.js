@@ -27,6 +27,7 @@ const LOLChatViewer = () => {
             words += inputs[i].substring(nameStartIndex, nameEndIndex).concat(inputs[i].substring(chatStartIndex, chatEndIndex)).concat("\n");
           }
         }
+        words = words.replace("&gt;", ">").replace("&lt;", "<");
         setChatHistory(words);
         setError('');
       };
